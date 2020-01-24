@@ -16,12 +16,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GH8-84-M0u">
-                                <rect key="frame" x="72" y="363" width="265" height="172"/>
+                                <rect key="frame" x="72" y="363" width="265" height="242"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Abel Makkonen Tesfaye (n. 16 de febrero de 1990; Toronto, Ontario), conocido como The Weeknd, es un cantante, compositor y productor canadiense de origen etíope, conocido por éxitos como «Blinding Lights», «Call Out My Name», Starboy, «The Hills», «Can't Feel My Face» y «I Feel It Coming».</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="weeknd" translatesAutoresizingMaskIntoConstraints="NO" id="d1G-5H-DQK">
@@ -29,7 +29,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="The Weeknd" largeTitleDisplayMode="always" id="oY3-tT-hHl">
@@ -52,20 +52,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fth-8X-KoH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="weeknd-2" translatesAutoresizingMaskIntoConstraints="NO" id="Fth-8X-KoH">
                                 <rect key="frame" x="75" y="142" width="264" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lbi-NH-0R4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="61uuCoK-09L._SL1000_" translatesAutoresizingMaskIntoConstraints="NO" id="Lbi-NH-0R4">
                                 <rect key="frame" x="75" y="575" width="264" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0XL-us-CcW">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="81pX+M-8cuL._SL1400_" translatesAutoresizingMaskIntoConstraints="NO" id="0XL-us-CcW">
                                 <rect key="frame" x="75" y="351" width="264" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PYb-aO-vsb"/>
                     </view>
                     <navigationItem key="navigationItem" id="Phs-y3-pwv"/>
@@ -80,6 +80,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="xgX-rZ-K6o" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LoM-cd-q0O">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -95,103 +96,121 @@
         <!--Questions-->
         <scene sceneID="kXO-sc-578">
             <objects>
-                <viewController id="rhW-fB-Yug" sceneMemberID="viewController">
+                <viewController id="rhW-fB-Yug" customClass="QuizViewController" customModule="Trivia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Xo-O6-eec">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OrB-Cb-dfM">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" restorationIdentifier="switch1" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OrB-Cb-dfM">
                                 <rect key="frame" x="286" y="222" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kef-I3-RjY">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" restorationIdentifier="switch2" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kef-I3-RjY">
                                 <rect key="frame" x="285" y="341" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="meb-gE-jv6">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" restorationIdentifier="switch3" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="meb-gE-jv6">
                                 <rect key="frame" x="285" y="466" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="El nombre real de The Weeknd es Abel Tesfaye" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="O3S-d7-Qkq">
                                 <rect key="frame" x="20" y="189" width="235" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G5R-On-5Lj">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Es originario de EE. UU." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G5R-On-5Lj">
                                 <rect key="frame" x="20" y="308" width="235" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A7V-it-QLJ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Su último álbum de estudio es &quot;My dear melancholy&quot;" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A7V-it-QLJ">
                                 <rect key="frame" x="20" y="433" width="235" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9E-9Q-pjz">
-                                <rect key="frame" x="146" y="619" width="123" height="93"/>
+                                <rect key="frame" x="132" y="618" width="123" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Check"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="rhW-fB-Yug" eventType="touchUpInside" id="Uwp-ZZ-lR2"/>
+                                    <action selector="buttonTapped:" destination="rhW-fB-Yug" eventType="valueChanged" id="cHO-Xc-H69"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PFC-yz-7Hu"/>
                     </view>
                     <navigationItem key="navigationItem" title="Questions" largeTitleDisplayMode="never" id="5CS-EP-bI0"/>
                     <connections>
-                        <segue destination="sUr-ID-Evy" kind="show" id="nJb-ht-2Et"/>
-                        <segue destination="oom-Xx-4nS" kind="show" id="eUD-VH-SZX"/>
+                        <outlet property="switch1" destination="OrB-Cb-dfM" id="6bZ-5B-HcL"/>
+                        <outlet property="switch2" destination="kef-I3-RjY" id="Nn0-u9-2lk"/>
+                        <outlet property="switch3" destination="meb-gE-jv6" id="P5t-ST-eFS"/>
+                        <segue destination="sUr-ID-Evy" kind="show" identifier="Congrats" id="vJX-Xk-NWA"/>
+                        <segue destination="oom-Xx-4nS" kind="show" identifier="TryAgain" id="0ae-vS-TOW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y8r-o8-NMl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1981" y="485"/>
+            <point key="canvasLocation" x="2035" y="490"/>
         </scene>
-        <!--View Controller-->
+        <!--Congrats-->
         <scene sceneID="f1M-4y-Syb">
             <objects>
-                <viewController id="sUr-ID-Evy" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Congrats" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sUr-ID-Evy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d6V-BC-wco">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tumblr_493d3e69d18de9823fe65b7042e1d9a5_33735d34_500" translatesAutoresizingMaskIntoConstraints="NO" id="Idq-QJ-FMV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="vdR-lf-VTz"/>
                     </view>
-                    <navigationItem key="navigationItem" id="TmK-jq-CoM"/>
+                    <navigationItem key="navigationItem" title="Congrats" id="TmK-jq-CoM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n6v-K8-9g7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2801" y="485"/>
+            <point key="canvasLocation" x="2801" y="490"/>
         </scene>
-        <!--View Controller-->
+        <!--Try Again-->
         <scene sceneID="NBz-21-ESU">
             <objects>
-                <viewController id="oom-Xx-4nS" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TryAgain" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oom-Xx-4nS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NoE-Mh-0LV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starboy" translatesAutoresizingMaskIntoConstraints="NO" id="Z22-PO-TUS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="B4S-F2-FOM"/>
                     </view>
-                    <navigationItem key="navigationItem" id="XLg-Hh-Und"/>
+                    <navigationItem key="navigationItem" title="Try Again" id="XLg-Hh-Und"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="osw-xx-4Vl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2801" y="1215"/>
+            <point key="canvasLocation" x="2798.5507246376815" y="1214.7321428571429"/>
         </scene>
         <!--Artist-->
         <scene sceneID="Y3I-8R-EuL">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IRh-FU-YpQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Cl-eV-C99" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Artist" id="Fox-vo-t6g"/>
                     <toolbarItems/>
@@ -204,7 +223,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="X1N-Wz-Sxv"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IRh-FU-YpQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1124.6376811594205" y="-168.08035714285714"/>
         </scene>
@@ -229,6 +247,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="61uuCoK-09L._SL1000_" width="1000" height="1000"/>
+        <image name="81pX+M-8cuL._SL1400_" width="1400" height="1400"/>
+        <image name="starboy" width="759" height="500"/>
+        <image name="tumblr_493d3e69d18de9823fe65b7042e1d9a5_33735d34_500" width="500" height="333"/>
         <image name="weeknd" width="2000" height="1270"/>
+        <image name="weeknd-2" width="380" height="380"/>
     </resources>
 </document>
